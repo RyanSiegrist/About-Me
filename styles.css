@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+#pageHeader {
+  width: 100%;
+  height: 10em;
+  background: linear-gradient(180deg, rgba(9,17,247,1) 0%, rgba(7,249,218,1) 49%, rgba(0,212,255,0) 100%);
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
+
+#pageHeader>h2 {
+  float: left;
+  padding: 2em;
+  padding-left: 2em;
+}
+
+#linkedPages  {
+  float: right;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-right: 5em;
+}
+
+ul {
+  margin: 3px;
+  list-style: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.linkage>li {
+    float: left;
+    padding: 10px;
+    font-size: 1.5em;
+  }
+
+.myPhoto {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 3em;
+  box-shadow: 5px 5px blue, -1em 0 .4em black;
+  width: 50%;
+
+
+  height: auto;
+  }
+
+  .aboutMe {
+    margin-top: 2em;
+    margin-left: 15%;
+    
+  }
+  
+  .aboutMe>p {
+    margin-top: 2em;
+    margin-right: 15%;
+    border-top: 1px solid black;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    }
+
+  
+a {
+  font-weight: bold;
+}
+
+table {
+  margin-left: 25em;
+  margin-right: 25em;
+  margin-top: 5em;
+}
+td {
+  border: solid 2px black;
+  text-align: center;
+}
+
+#aboutCreative>h2 {
+  margin-top: 8em;
+  text-align: center;
+}
+
+#aboutCreative>p {
+  margin-top: 2em;
+  margin-left: 25em;
+  margin-right: 25em;
+  border-top: 1px solid black;
+  padding: 5px;
+  border-bottom: 1px solid black;
+  text-align: center;
+  }
